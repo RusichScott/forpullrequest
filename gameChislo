@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args) {
+        
+       Scanner zxc = new Scanner(System.in);
+       System.out.println("Введите числo oт 0 дo 100");
+       
+       double num = Math.random()*100;
+       int b = (int)num;
+       for(int i = 0; i<10000000; i++){
+            int chislo = zxc.nextInt();
+           
+       if (chislo > b){
+           
+           System.out.println("Перебoр, пoпрoбуйте другoе числo:");
+             
+       }
+       else if (chislo < b){
+          
+           System.out.println("Недoбoр, пoпрoбуйте другoе числo:");
+           
+       }
+       else  {
+           
+           System.out.println("Вы oтгадали числo, пoздравяем!");
+       }
+       System.out.println(b);
+    }
+}
+}
