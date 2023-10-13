@@ -9,6 +9,9 @@ public class Main
        
        double num = Math.random()*100;
        int b = (int)num;
+
+//в работу вступил Алексей и обновил( цил for был заменён на while )
+
        while(chislo!=b) {
                     System.out.println("Вы не угадали, пoпрoбуйте другoе числo:");
                     chislo = zxc.nextInt();
